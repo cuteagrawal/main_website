@@ -1,9 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>webiste</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Free Website and services worth more than RS 5000">
+    <meta name="keywords" content="Website, cuconut, cuconut.com, free website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="websites.css">
+    <link rel="stylesheet" href="https://assets.ubuntu.com/v1/vanilla-framework-version-2.30.0.min.css" />
+    <link rel="icon" href="culogo.png" type="image/icon type">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -17,112 +23,158 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
 
+    <title>cuconut</title>
 </head>
 
 <body>
-    <div>
-        <nav>
-            <one>
-                <span id="cuconut">taco</span>
-            </one>
-            <two class="middle">
-                <span class="center" id="">home</span>
-                <span class="center" id="">pricing</span>
-                <span class="center" id="">about us</span>
-                <span class="center" id="">contact</span>
-            </two>
-            <three class="right">
-                <span class="corner" id="">paid</span>
-                <span class="corner" id="free">free trial</span>
-            </three>
-        </nav>
-        <main>
-            <text1>
-                <p>
-                    <span id="">What's better than a <br>
-                        <span id="free_offer"> FREE </span>
-                        <br><span id="free_offer2"> website?</span>
-                    </span> <br>
-                    <span id="extras">get Rs 5000 worth of services <br>
-                        and <span id="hosting">FREE HOSTING</span>
-
+    <section class="section1" id="home">
+        <navigation class="u-hide--small">
+            <div id="nav_title" class="nav_logo">cuconut</div>
+            <div id="nav_elements">
+                <div class=""><a class="nav_elements_colour" href="#home">home</a></div>
+                <div class=""><a class="nav_elements_colour" href="#pricing">pricing</a></div>
+                <div class=""><a class="nav_elements_colour" href="#about">about us</a></div>
+                <div class=""><a class="nav_elements_colour" href="#contact">contact</a></div>
+            </div>
+            <div id="nav_buttons">
+                <div class="">paid</div>
+                <div class="" id="nav_buttons_free_trial">free trial</div>
+            </div>
+        </navigation>
+        <header id="navigation" class="p-navigation u-hide--large u-hide--medium">
+            <div class="p-navigation__row">
+                <div class="p-navigation__banner">
+                    <div class="p-navigation__logo logo">
+                        <div class="logo_one">
+                            <a class="p-navigation__item" href="#">
+                                <span class="white vanilla_cuconut">cuconut</span>
+                                <!-- <img class="p-navigation__image" src="https://assets.ubuntu.com/v1/5d6da5c4-logo-canonical-aubergine.svg" alt="Canonical" width="95"> -->
+                            </a>
+                        </div>
+                    </div>
+                    <a href="#navigation" class="p-navigation__toggle--open" title="menu"><span
+                            class="white">menu</span></a>
+                    <a href="#navigation-closed" class="p-navigation__toggle--close" title="close menu"><span
+                            class="white">Close</span></a>
+                </div>
+                <nav class="p-navigation__nav" aria-label="Example main navigation">
+                    <span class="u-off-screen">
+                        <a href="#main-content">Jump to main content</a>
                     </span>
+                    <ul class="p-navigation__items">
+                        <li class="p-navigation__item is-selected">
+                            <a class="p-navigation__link" href="#home"><span class="white">home</span></a>
+                        </li>
+                        <li class="p-navigation__item">
+                            <a class="p-navigation__link" href="#pricing"><span class="white">pricing</span></a>
+                        </li>
+                        <li class="p-navigation__item">
+                            <a class="p-navigation__link" href="#about"><span class="white">about us</span></a>
+                        </li>
+                        <li class="p-navigation__link">
+                            <a class="p-navigation__link" href="#contact"><span class="white">contact</span></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="content_main">
+            <div class="" id="content_main_one">
+                <p id="content_main_one_p">
+                    <span id="content_main_one_LineOne">What's better than a</span> <br>
+                    <span id="content_main_one_LineTwo">FREE</span> <br>
+                    <span id="content_main_one_LineThree">WEBSITE?</span> <br>
+                    <span id="content_main_one_LineFour">get $100 worth of services<br>
+                        and</span> <span id="content_main_one_LineFive">FREE HOSTING</span>
                 </p>
-            </text1>
-            <illustration>
-                <img src="Saly-11.png" id="illustration">
-            </illustration>
-            <text2>
+            </div>
+            <div class="" id="content_main_two">
+                <img src="Saly-11.png" id="illustration_one">
+            </div>
+            <div class="" id="content_main_three">
                 <p>
-                    <span id="limited"> offer last for limited period. <br> <span id="hurry">HURRY UP</span> </span>
+                    <span id="content_main_three_LineOne">offer last for limited period</span><br>
+                    <span id="content_main_three_LineTwo">HURRY UP</span>
                 </p>
-            </text2>
-        </main>
-    </div>
-    <div class="second">
-        <div id="free_tier">
-            <p>
-                <span id="free_tier1">
-                    <p class="lineone"> <span class="heading" id="borderone">FREE TIER </span><br></p>
-                    <span class="features">
-                        <p class="linetwo">Website Design</p>
-                        <p class="linethree"> Hosting (cap:50)</p>
-                    </span>
-                    <span id="end_price"> Free*</span>
 
-                </span>
-            </p>
+            </div>
         </div>
-        <div id="premium_tier">
-            <p>
-                <span id="premium_tier1">
-                    <p class="lineone"> <span class="heading">PREMIUM TIER </span></p>
-                    <span class="features">
-                        <p class="linetwo">Pro Website Design</p>
-                        <p class="linethree">Hosting (cap:500)</p>
-                        <p class="linethree"> Design updates</p>
-                        <p class="linethree">Support</p>
-                        <p class="linethree"> FREE DOMAIN (anual subscription)</p>
-                    </span>
-                    Rs 99*
+    </section>
+    <section class="section_two" id="pricing">
+        <div class="pricing_panel" id="">
+            <div class="Free_Tier" id="">
+                <table>
+                    <p class="table_heading">FREE TIER</p>
+                    <tr>
+                        <td>Website Design</td>
+                    </tr>
+                    <tr>
+                        <td>Hosting(cap:50)</td>
+                    </tr>
+                    <tr>
+                        <td>FREE SUB-DOMAIN</td>
+                    </tr>
+                </table>
+                <div class="Pricing_Button">
+                    <p class="Pricing_Button">Free*</p>
+                </div>
+            </div>
+            <div class="Paid_Tier" id="">
+                <table>
+                    <p class="table_heading">PREMIUM TIER</p>
+                    <tr>
+                        <td>Pro Website Design</td>
+                    </tr>
+                    <tr class="Paid_Tier_border">
+                        <td>Hosting (cap:500)</td>
+                    </tr>
+                    <tr class="Paid_Tier_border">
+                        <td>Design updates</td>
+                    </tr>
+                    <tr class="Paid_Tier_border">
+                        <td>Support</td>
+                    </tr>
+                    <tr class="Paid_Tier_border">
+                        <td>FREE DOMAIN (annual subscription)</td>
+                    </tr>
+                </table>
+                <div class="Pricing_Button">
 
-                </span>
-            </p>
+                    <p class="Pricing_Button">Rs99*</p>
 
+                </div>
+            </div>
+            <div class="pricing_panel_illustration" id="">
+                <img src="Saly-8.png" id="illustration_two">
+            </div>
         </div>
-        <clay id="clay">
-            <img src="Saly-8.png" id="hand">
-        </clay>
+    </section>
+    <section class="section_three" id="about">
+        <div class="About_us" id="">
 
-
-    </div>
-    <div class="third">
-        <div class="about_us">
-            <p class="about_us_text">
-                <span class="change">About us:</span><br>
+            <p class="About_us_content">
+                <span class="About_us_heading">About us:</span><br>
                 We create websites and bring you online at affordable price.
                 Based in the heart of IT hub of
                 Canada. Currently serving in Canada, India, United States and worldwide.
                 We are just a thought away. What are you waiting for?
             </p>
         </div>
-    </div>
-    <div class="fourth">
-        <!-- <section class="fourth1"> -->
-        <endline1>
-            <p class="last_section1">This might be the end of our website but not the end of our services. Call Now!!
-            </p>
-        </endline1>
-        <endline2>
-            <endline2_1>
-                <p class="last_section2 last_section1">phone:+91-7869686694 (India)</p>
-            </endline2_1>
-            <endline2_2>
-                <p class="last_section2 last_section1">Home Pricing About us Contact </p>
-            </endline2_2>
-        </endline2>
-        <!-- </section> -->
-    </div>
+    </section>
+    <section class="section_four" id="contact">
+        <div class="section_four_title">
+            <p>This might be the end of our website but not the end of our services. Call Now!!</p>
+        </div>
+        <div class="section_four_footer">
+            <div class="section_four_footer_one">phone:+91-7869686694 (India)</div>
+            <div class="section_four_footer_two">
+                <a href="#home" class="end_nav"> Home </a>
+                <a href="#pricing" class="end_nav"> Pricing </a>
+                <a href="#about" class="end_nav"> About us </a>
+                <a href="#contact" class="end_nav"> Contact </a>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
