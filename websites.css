@@ -25,6 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	color: #45280a;
 }
 ol, ul {
 	list-style: none;
@@ -42,7 +43,6 @@ table {
 	border-spacing: 0;
 }
 
-
 html{
 	scroll-behavior: smooth;
 }
@@ -57,7 +57,6 @@ html{
     height:900px;
 	display: flex;
 	flex-direction: column;
-	
 }
 navigation{
 	box-sizing: border-box;
@@ -87,7 +86,7 @@ navigation{
     font-weight: 500;
     display:flex;
     justify-content: space-between;
-	width: 140px;
+	width: 150px;
 	align-items: center;
 	align-self: center;
 }
@@ -98,19 +97,17 @@ navigation{
 }
 #nav_buttons_free_trial{
 	font-size: 17px;
-    padding: 7px;
+    padding: 5px 8px;
     color: white;
     border-radius: 15px;
-    background-color: #462502;
+    border: 3px solid #45280a;
+    background-color: #45280a;
 }
 
 header,p-navigation{
 	background-color: #2e3138 !important;
 }
 
-span.white{
-	color: white !important;
-}
 .vanilla_cuconut{
 	font-family: 'Noto Sans JP', sans-serif;
     font-size: 1.3em;
@@ -151,15 +148,15 @@ p#content_main_one_p{
 #content_main_one_LineThree{
 	font-family: 'Mate SC', serif;
     font-weight: 900;
-    font-size:62px;
+    font-size:50px;
 }
 #content_main_one_LineFour{
-	font-size: 35px;
+	font-size: 40px;
 }
 #content_main_one_LineFive{
 	font-family: 'Mate SC', serif;
     font-weight: 900;
-    font-size:37px;
+    font-size:40px;
 }
 #illustration_one{
 	box-sizing: border-box;
@@ -172,22 +169,26 @@ p#content_main_one_p{
 }
 #content_main_three_LineOne{
 	font-family: 'Roboto Condensed', sans-serif;
-    font-size: 30px;
+    font-size: 35px;
 }
 #content_main_three_LineTwo{
 	font-family: 'Roboto Condensed', sans-serif;
-    font-size: 30px;
+    font-size: 40px;
 	font-weight: 600;
 }
 
 
 /* Pricing Panel */
 
+td{
+	text-align: center !important;
+}
+
 .section_two{
 	box-sizing: border-box;
 	width:100%;
     height:800px;
-    background-color: burlywood;
+    background-color: #ffe8d6;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -202,14 +203,14 @@ p#content_main_one_p{
 
 }
 .Free_Tier{
-	color: brown;
     border-radius: 10px;
-    border-color: #f8edeb;
+    border-color:#ffe8d6;
     border-style: solid;
     border-width: 1px;
     width:22em;
     height:28em;
-    background-color:#f8edeb;
+    background-color:#ffe8d6;
+	box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
     padding: 3%;
     /* text-align: center; */
     display: flex;
@@ -218,13 +219,14 @@ p#content_main_one_p{
 }
 .Paid_Tier{
 	color: white;
-    border-color: #264653;
-    background-color:#264653;
+    border-color: #2e3138;
+    background-color:#2e3138;
     justify-content:center;
 	/* color: brown; */
     border-radius: 10px;
     border-style: solid;
     border-width: 1px;
+	box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
     width:22em;
     height:28em;
     padding: 3%;
@@ -247,9 +249,10 @@ tr.Paid_Tier_border{
 	margin: auto auto 0 auto;
 	padding: 4px 8px 4px 8px;
 	width: 150px;
-	border:1px solid #c77dff;
+	border:1px solid #45280a;
 	border-radius: 10px;
-	background-color: #c77dff;
+	background-color: #45280a;
+	color: white;
 	/* text-align: center; */
 	font-size:20px;
 	font-family: 'Lato', sans-serif;
@@ -271,7 +274,7 @@ tr.Paid_Tier_border{
 .section_three{
 	width:100%;
 	height:600px;
-	background-color: #e5989b;
+	background-color: #ffe8d6;
 	display:flex;
 	justify-content: center;
 	align-items: center;
@@ -281,15 +284,16 @@ tr.Paid_Tier_border{
 	width: 80%;
 	padding: 0 7%;
 	height:400px;
-	background-color: #2b2d42;
+	background-color: #2e3138;
 	border-radius:20px;
+	box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
     align-items: flex-start;
 }
 h2.About_us_heading{
-	/* font-size: 40px; */
+	font-size: 40px;
     font-family: 'Mate SC', serif;
     font-weight: 500;
     color: #b1a7a6;
@@ -298,9 +302,10 @@ h2.About_us_heading{
 .About_us_content{
 	color: white;
     /* padding: 10%; */
-    font-size: 30px;
-    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+    /* font-family: 'Mukta', sans-serif; */
     font-weight: 300;
+	max-width: 100%;
     line-height: 1.2cm;
 }
 
@@ -308,9 +313,9 @@ h2.About_us_heading{
 
 .section_four{
 	width:100%;
-	height:400px;
+	height:250px;
 	color: white;
-	background-color: #161a1d;
+	background-color: black;
 	display:flex;
 	flex-direction: column;
 	padding: 3%;
@@ -318,7 +323,7 @@ h2.About_us_heading{
 .section_four_title{
 	justify-self: flex-start;
 	align-self:center;
-	font-size: 1.7rem;
+	font-size: 30px;
     font-family: 'Mukta', sans-serif;
     font-weight: 300;
 }
@@ -330,7 +335,7 @@ h2.About_us_heading{
 }
 .section_four_footer_one{
 	justify-self: flex-start;
-    font-size: 1.5rem;
+    font-size: 16px;
     font-family: 'Mukta', sans-serif;
     font-weight: 300;
 }
@@ -351,6 +356,15 @@ a.end_nav{
 }
 
 @media(max-width:771px){
+	.p-navigation__logo-title{
+		color: white;
+		padding-bottom: 16px;
+		padding-top: 11.2px;
+	}
+	.spacing{
+		margin: 0 !important;
+    	padding: 1.3em 1.5em 0em !important;
+	}
 	.section1{
 		box-sizing: border-box;
 		height: fit-content;
